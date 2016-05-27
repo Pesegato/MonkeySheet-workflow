@@ -1,3 +1,7 @@
-# First Chapter
+# Build the spritesheet
 
-GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
+You need to pack your sprites on a spritesheet. Requirements:
+* all sprites must be square
+* the final spritesheet must be square
+
+I suggest using TexturePacker (https://www.codeandweb.com/texturepacker) which is free for basic use.
