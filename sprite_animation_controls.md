@@ -61,3 +61,21 @@ public class MyActionMachine extends MSActionMachine {
         }
     }
 ```
+
+#MSAction lifecycle
+**init**: A good place to put the MSAction.play or MSAction.playOnce. Notify the MSActionMachine that the action is started.
+
+**msUpdate**: useful for mid-animation effects.
+```
+if (MonkeySheetAppState.tTPF == 0) {
+   if (msc.position == 2) {
+      //do something at position 2
+            }
+   }
+```
+
+**whatPlay**: the MSAction wraps multiple animations, on this method you can put the logic to choose which animation to run next.
+
+**hasEnded**: By default, the MSAction is over when the animation is over. However you can override the hasEnded method to change the duration of the MSAction
+
+**finish**: Notify the MSActionMachine that the action is over
