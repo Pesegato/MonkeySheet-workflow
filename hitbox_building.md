@@ -26,7 +26,7 @@ Select all vertices by keeping pressed `Ctrl` while you draw an enclosing shape 
 
 Press `F`, then save the .blend file.
 
-To make a horizontally flipped version, press `s`,`x`, then `-1` and `Enter`, then save the .blend file.
+To make a horizontally flipped version, press `s`,`x`, then `-1` and `Enter`, then save the .blend file. [ACTUALLY WON'T WORK BECAUSE OF: A polygon must have Counter-Clockwise vertex winding... the same as changing sign to X value]
 
 Put each blend file inside a jMonkeyEngine project. Right click on it and select "Convert to .j3o".
 
